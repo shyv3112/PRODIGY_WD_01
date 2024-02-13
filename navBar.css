@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Poppins:wght@200;300;600;700;800;900&family=Roboto&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Fahkwang&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Fahkwang:wght@500&family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Fahkwang:wght@500&family=Josefin+Slab:wght@100&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Fahkwang';
+}
+
+.Nav-Bar {
+  background-color: #3e3e3e;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Nav-logo-div {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 190px;
+}
+
+.logo {
+  width: 250px;
+  font-family: 'Barlow Condensed';
+  font-size: 35px;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+.logo-pic{
+  width: 50px;
+  height: 50px;
+}
+
+.logo-small{
+  font-family: 'Josefin slab';
+  color: #ffffff;
+  font-weight: 1000;
+  font-size: smaller;
+}
+
+.Nav-ul {
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+.Nav-ul a:hover{
+  color: #ff9d00;
+  transition: 0.3s;
+}
+
+.Nav-li {
+  list-style: none;
+  display: inline-block;
+  line-height: 225px;
+  margin: 0 10px;
+  font-family: 'Fawhkwang';
+  font-size: 0.1px;
+  font-weight: 50;
+}
+
+.Nav-ul-social {
+  float: right;
+  margin-right: 99px;
+}
+
+.Nav-li-social {
+  display: inline-block;
+  line-height: 25px;
+  margin: 0 10px;
+}
+
+.Nav-social-icons {
+  float: inline-end;
+  margin-top: 20px;
+}
+
+.Nav-search-bar {
+  float: inline-end;
+  margin-top: 24px;
+  margin-right: 12px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-size: small;
+  font-weight: 20;
+  gap: 15px;
+  align-items: baseline;
+}
+
+.Nav-search-login {
+  margin-top: 56px;
+  display: flex;
+}
+
+.Nav-a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 0px 5px;
+  cursor: pointer;
+}

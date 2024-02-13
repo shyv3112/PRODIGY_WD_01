@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Fahkwang:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,100&family=Fahkwang:wght@500&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: max-content;
+    background: url(./images/bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    margin-top: 8.5%;
+    background-color: #000000;
+    margin-top: 3.5%;
+}
+.hero h1{
+    font-size: 65px;
+    font-family: 'Fahkwang';
+}
+.hero h5{
+    padding-bottom: 20%;
+    font-size: 15px;
+}
+.hero h4{
+    font-size: 15px;
+    margin-top: 10%;
+}
+.posts {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+}
+.start-content {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-display: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.img-panel {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 12%; 
+}
+.travel-sub {
+    background-image: url(./images/travel.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+.eat-sub {
+    background-image: url(./images/eat.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+.relax-sub {
+    background-image: url(./images/relax.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+.travel-sub .btn{
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fahkwang';
+    padding: 12px 24px;
+    border-radius: 0%;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 74px;
+}
+.eat-sub .btn{
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fahkwang';
+    padding: 12px 24px;
+    border-radius: 0%;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 74px;
+}
+.relax-sub .btn{
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-family: 'Fahkwang';
+    padding: 12px 24px;
+    border-radius: 0%;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 74px;
+}
+.post1 , .post2{
+    margin-left: 12%;
+    margin-right: 10.6%;
+    margin-top: 7%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #585858;
+}
+.post-user {
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    gap: 6px;
+    color: #ffffff;
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+    align-items: last baseline;
+}
+.post-title {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 9px;
+}
+.post-content {
+    color: #ffffff;
+    font-family: 'Fahkwang';
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight:lighter;
+}
+.post-content2 {
+    color: #ffffff;
+    font-family: 'Fahkwang';
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight:lighter;
+}
+.like-line {
+    color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: #ffffff;
+}
+.vcl {
+    margin-left: 50px;
+    color: #ffffff;
+    font-size: small;
+    display: flex;
+    gap: 12px;
+    align-items: first baseline;
+}
+.likes {
+    display: flex;
+    gap: 12px;
+    align-items: first baseline;
+    font-size: small;
+    margin-left: 650px;
+}
+.footer-container {
+    background-color:#b2b2b2;
+    width: 100%;
+    height: 330px;
+    display: flex;
+}
+.footer-logo {
+    width: 155px;
+    height: 155px;
+    margin-left: 15%;
+    margin-top: 12%;
+}
+.footer-title {
+    margin-left: 7%;
+    margin-top: 12%;
+    font-family: 'Fahkwang';
+    font-size: xx-large;
+    font-weight: 400;
+}
+.footer-content {
+    margin-left: 7%;
+    margin-top: 2%;
+    font-family: 'Fahkwang';
+    flex-wrap: 10px;
+    width: 300px;
+    font-size: 14px;
+}
+.footer-left {
+    display: flex;
+    margin-left: 7%;
+}
+.footer-right {
+    margin-left: 15%;
+}
+.footer-r-title {
+    margin-top: 12%;
+    font-family: 'Fahkwang';
+    font-size: xx-large;
+    font-weight: 400;
+}
+.footer-r-content {
+    font-family: 'Fahkwang';
+}
+.sub-button {
+    background-color: rgb(223, 188, 223);
+    width: 325px;
+    height: 40px;
+    border: none;
+}
+.mail-text {
+    width: 325px;
+    height: 40px;
+    font-family: 'Fahkwang';
+    font-size: smaller;
+}
